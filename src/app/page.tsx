@@ -16,7 +16,7 @@ export default function Home() {
           A New Purpose.
         </h1>
         <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-          Don't let old electronics gather dust or harm the environment. Assess your device's condition and discover the best options: resell for cash, recycle responsibly, or donate for reuse.
+          Don&apos;t let old electronics gather dust or harm the environment. Assess your device&apos;s condition and discover the best options: resell for cash, recycle responsibly, or donate for reuse.
         </p>
         <Link href="/assess">
           <Button size="lg" className="text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -37,7 +37,7 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold">1. Assess Your Device</h3>
             <p className="text-muted-foreground text-sm">
-              Answer a few quick questions about your device's type, condition, and accessories. It only takes a minute!
+              Answer a few quick questions about your device&apos;s type, condition, and accessories. It only takes a minute!
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold">2. Get Options</h3>
             <p className="text-muted-foreground text-sm">
-              Based on your answers, we'll instantly suggest the best path: potential resale value or responsible recycling/donation.
+              Based on your answers, we&apos;ll instantly suggest the best path: potential resale value or responsible recycling/donation.
             </p>
           </div>
 

@@ -13,7 +13,7 @@ export default function ResellPage() {
         </CardHeader>
         <CardContent className="space-y-6">
           <p className="text-center text-muted-foreground">
-            Based on your device's condition, selling or exchanging it could be a good option! Here are some popular choices in India and some tips:
+            Based on your device&apos;s condition, selling or exchanging it could be a good option! Here are some popular choices in India and some tips:
           </p>
 
           <div>
@@ -47,7 +47,7 @@ export default function ResellPage() {
                 <span className="font-medium">Factory Reset:</span> <span className="font-bold text-red-600 dark:text-red-400">Crucial!</span> Wipe all your personal data completely before selling. Remove Google/iCloud accounts first, then perform the reset.
               </li>
               <li>
-                 <span className="font-medium">Remove SIM/SD Cards:</span> Don't forget these!
+                 <span className="font-medium">Remove SIM/SD Cards:</span> Don&apos;t forget these!
               </li>
               <li>
                 <span className="font-medium">Clean It Up:</span> A clean device looks more valuable.

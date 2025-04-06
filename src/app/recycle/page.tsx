@@ -89,7 +89,7 @@ export default function RecyclePage() {
     const formattedLines = text.split('\n').map(line => {
       const trimmedLine = line.trim();
       if (!trimmedLine) return '';
-      let formattedLine = trimmedLine.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      const formattedLine = trimmedLine.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
       if (formattedLine.match(/^(\*|-|\d+\.)\s+/)) {
         return `<p class="mb-1 ml-4">• ${formattedLine.replace(/^(\*|-|\d+\.)\s+/, '')}</p>`;
       }
@@ -155,7 +155,7 @@ export default function RecyclePage() {
                     <p className="text-xs italic text-muted-foreground pt-3 text-center">Data provided by Google Maps. Please verify hours and details before visiting.</p>
                  </ul>
               )}
-               {!isLoadingPlaces && !placesError && places.length === 0 && ( <p className='text-muted-foreground text-center py-6 italic'>No specific e-waste recycling or donation centers found nearby via Google Maps for "{displayLocation}". Try searching online or check your local council's website.</p> )}
+               {!isLoadingPlaces && !placesError && places.length === 0 && ( <p className='text-muted-foreground text-center py-6 italic'>No specific e-waste recycling or donation centers found nearby via Google Maps for &quot;{displayLocation}&quot;. Try searching online or check your local council&apos;s website.</p> )}
            </div>
 
           {/* --- Data Wipe Reminder --- */}
