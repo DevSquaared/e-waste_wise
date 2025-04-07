@@ -14,7 +14,6 @@ A web application designed to help users responsibly manage their electronic was
 - [Solution](#solution)
 - [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
 - [Deployment](#deployment) 
 - [Future Improvements](#future-improvements)
 - [Contact](#contact)
@@ -61,7 +60,9 @@ E-Waste Wise provides a simple web interface to:
 *   **Theming:** `next-themes`
 *   **Icons:** `lucide-react`
 
+## Deployement 
 
+* **Deployed At:**  *https://e-waste-wise.vercel.app/*
 ## Future Improvements
 
 *   Integrate user accounts to save device history.
