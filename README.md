@@ -60,7 +60,7 @@ E-Waste Wise provides a simple web interface to:
 *   **Theming:** `next-themes`
 *   **Icons:** `lucide-react`
 
-## Deployement 
+## Deployment 
 
 * **Deployed At:**  *https://e-waste-wise.vercel.app/*
 ## Future Improvements
